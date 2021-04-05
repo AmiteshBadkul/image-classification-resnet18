@@ -33,7 +33,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-* [The Libraries](#libraries)
+* [The Libraries](#the-libraries)
 * [Usage](#usage)
 * [Dataset](#dataset)
 * [The Model](#the-model)
@@ -47,7 +47,9 @@
 ## About the Project
 This repository contains my attempt at image classification of Buildings, Forests, and Mountains. The model used is 'RESNET18'. 
 The total number of images used are 600 (200 of each category). An Accuracy of 98.334% was achieved in under 5 epochs, each epoch 
-roughly took 2 minutes, hence the model was succcesfully trained in under 10 minutes.
+roughly took 2 minutes, hence the model was succcesfully trained in under 10 minutes. The images were augmented before being given 
+as an input to the RESNET18 model, they were resized to the dimensions of 224x224. The training-validation split was taken as 0.2.
+
 
 
 ## The Libraries
@@ -98,11 +100,15 @@ VBox([widgets.Label('Select your Image!'),
       btn_upload, btn_run, out_pl, lbl_pred])
 ```
 - A widget will appear which is shown below and you can upload and classify the image.
+- ![image](https://user-images.githubusercontent.com/79955028/113575593-b9d65380-963b-11eb-9eeb-c2516571d8f2.png)
+
 
 
 
 ## Dataset  
 The Dataset taken to generate the model was taken from [Kaggle](https://www.kaggle.com/puneet6060/intel-image-classification)
+![image](https://user-images.githubusercontent.com/79955028/113575232-3288e000-963b-11eb-99b6-c3d8b4107d1e.png)
+
 
 ## The Model
 
