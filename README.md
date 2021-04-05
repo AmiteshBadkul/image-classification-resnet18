@@ -220,7 +220,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@AmiteshBadkul](https://github.com/AmiteshBadkul) - f20180764@hyderabad.bits-pilani.ac.in
+Author - [@AmiteshBadkul](https://github.com/AmiteshBadkul) - f20180764@hyderabad.bits-pilani.ac.in
 
 Project Link: [https://github.com/AmiteshBadkul/image-classification-resnet18](image-classification-resnet18)
 
